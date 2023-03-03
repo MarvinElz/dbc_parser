@@ -1,0 +1,53 @@
+Message1:
+	Gesamt: 0x03, 0x40, 0xCC, 0xD0, 0x33, 0x33, 0x33, 0x34
+	Signal_8_Bit_Signed_M = 13;
+	Signal_16_Bit_Signed_M = 3277;
+	Signal_32_Bit_Signed_M = 214748365;
+	
+Message2:
+	Gesamt: 0xF3, 0x33, 0x33, 0x33, 0x33, 0x33, 0x33, 0x33
+	Signal_64_Bit_Signed_M = -922337203685477581;
+	
+Message3:
+	Gesamt: 0x03, 0x40, 0xCC, 0xD0, 0x66, 0x66, 0x66, 0x68
+	Signal_8_Bit_Unsigned_M = 13;
+	Signal_16_Bit_Unsigned_M = 3277;
+	Signal_32_Bit_Unsigned_M = 214748365;
+	
+Message4:
+	Gesamt: 0x0C, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCD
+	Signal_64_Bit_Unsigned_M = 922337203685477581;
+	
+Message5:
+	Gesamt:	0x34, 0xD0, 0xCC, 0x40, 0x33, 0x33, 0x33, 0x03
+	Signal_8_Bit_Signed_I = 13;
+	Signal_16_Bit_Signed_I = 3277;
+	Signal_32_Bit_Signed_I = 214748365;
+	
+Message6:
+	Gesamt: 0xCD, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0x0C
+	Signal_64_Bit_Signed_I = 922337203685477581;
+	
+Message7:
+	Gesamt: 0x34, 0xD0, 0xCC, 0x40, 0x33, 0x33, 0x33, 0x03
+	Signal_8_Bit_Unsigned_I = 13;
+	Signal_16_Bit_Unsigned_I = 3277;
+	Signal_32_Bit_Unsigned_I = 214748365;
+	
+Message8:
+	Gesamt: 0xCD, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0x0C 
+	Signal_64_Bit_Unsigned_I = 922337203685477581;
+
+Message9:
+	Gesamt: 0x73, 0x28, 0xCC, 0x1C, 0x59, 0x90, 0xCF, 0x08
+	Signal_12_Bit_Unsigned_M = 3685;
+	Signal_12_Bit_Signed_I = -410;
+	Signal_12_Bit_Signed_M = -1230;
+	Signal_12_Bit_Unsigned_I = 2255;
+	
+ Message10:
+	Gesamt: 0x66, 0x0E, 0x5F, 0xF8, 0xA0, 0x19, 0x4C, 0xE0
+	Signal_12_Bit_Signed_I_Factor = -31.0;
+	Signal_12_Bit_Signed_M_Factor = -92.5;
+	Signal_12_Bit_Unsigned_I_Factor = 92.0;
+	Signal_12_Bit_Unsigned_M_Factor = 133.0;

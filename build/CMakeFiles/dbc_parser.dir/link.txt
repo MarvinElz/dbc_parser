@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\dbc_parser.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\dbc_parser.dir/objects.a @CMakeFiles\dbc_parser.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -Wl,--whole-archive CMakeFiles\dbc_parser.dir/objects.a -Wl,--no-whole-archive -o dbc_parser.exe -Wl,--out-implib,libdbc_parser.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dbc_parser.dir\linklibs.rsp
