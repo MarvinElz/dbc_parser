@@ -16,7 +16,7 @@ Supported are signales singned and unsigned integers in all lengths (1 bit up to
 ## Usage
 ```
 Usage:
-   dbc_parser2 [dbc_file.dbc] [h_file.h] [options]
+   dbc_parser [dbc_file.dbc] [h_file.h] [options]
    Options:
       -h | Output this help
       -v | verbose
