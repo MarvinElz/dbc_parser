@@ -29,7 +29,17 @@ dbc_parser test_file.dbc test_file.h
 ```
 Reads the fest_file.dbc and outputs the C-defines into test_file.h
 
-## Compiling
+#### Implementation
+Set signal to data-array
+
+![grafik](https://user-images.githubusercontent.com/11078162/222683370-8fa1095f-8eed-4c44-bb5f-01f9baadb0d5.png)
+
+Set signal from data-array
+
+![grafik](https://user-images.githubusercontent.com/11078162/222683543-1d78d8f9-83ef-4b4b-bcae-b2e9f5f6f7b1.png)
+
+
+## Compiling the dbc_parser
 ```
 mkdir build
 cd build
