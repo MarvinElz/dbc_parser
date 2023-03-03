@@ -6,8 +6,7 @@ Program that generates executable C-code for reading and writing CAN-Messages de
 This message is parsed to following C-defines that can be used to fill/read the can-frame buffer
 ![grafik](https://user-images.githubusercontent.com/11078162/222678549-97e1b76c-7cd6-490b-ad54-7ef0c6977a2a.png)
 
-Supported are signales singned and unsigned integers in all lengths (1 bit up to 64 bit), IEEE Float and IEEE Double. The signals don't necessarily have to be byte-aligned. Signal factor and offset are applied automatically as well as the negative sign.
-The message id, dlc and extended-flag are exported as well as signal unit, factor, min- and max-values.
+Supported are signales singned and unsigned integers in all lengths (1 bit up to 64 bit), IEEE Float and IEEE Double. The signals don't necessarily have to be byte-aligned. Signal factor and offset are applied automatically as well as the negative sign. The message id, dlc and extended-flag are exported as well as signal unit, factor, min- and max-values. The endianess is accounted for automatically.
 
 ![grafik](https://user-images.githubusercontent.com/11078162/222682695-2125f74d-0085-4c23-94f1-cfe6d6eec963.png)
 
