@@ -1,5 +1,5 @@
 # dbc_parser
-Program that generates executable C-code for reading and writing CAN-Messages defines in *.dbc-files
+Program that generates executable C-code for reading and writing CAN-Messages defined in *.dbc-files
 
 ![grafik](https://user-images.githubusercontent.com/11078162/222678024-8b9fc32b-88bc-4bc1-ae9c-b44775250823.png)
 
